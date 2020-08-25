@@ -22,5 +22,4 @@ end
 
 adidas = Shoe.new("adidas")
 nike = Shoe.new("nike")
-puts nike.brand
-puts BRANDS
+nike.brand
