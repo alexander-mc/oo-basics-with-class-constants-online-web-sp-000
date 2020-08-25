@@ -10,7 +10,7 @@ class Shoe
   end
 
   def brand
-    BRANDS
+    puts BRANDS
   end
 
   def cobble
