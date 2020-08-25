@@ -10,7 +10,7 @@ class Shoe
   end
 
   def brand
-    puts BRANDS
+    puts BRANDS.inspect
   end
 
   def cobble
