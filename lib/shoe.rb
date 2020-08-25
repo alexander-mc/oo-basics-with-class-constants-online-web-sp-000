@@ -1,6 +1,6 @@
 class Shoe
   attr_accessor :color, :size, :material, :condition
-  # attr_reader :brand
+  attr_reader :brand
 
   BRANDS = []
 
@@ -9,9 +9,9 @@ class Shoe
     BRANDS << brand if BRANDS.none? {|b| b == brand}
   end
 
-  def brand
-    puts BRANDS.inspect
-  end
+  # def brand
+  #   puts BRANDS.inspect
+  # end
 
   def cobble
     self.condition = "new"
